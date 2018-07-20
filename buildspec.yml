@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - IMAGE_TAG=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
-      - IMAGE_REPO_NAME=webflow-service
+      - IMAGE_REPO_NAME=hobbit-service
       - AWS_ACCOUNT_ID=639670031158
       - echo $IMAGE_REPO_NAME
       - echo $IMAGE_TAG

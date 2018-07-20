@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.viome</groupId>
-	<artifactId>webflow-service</artifactId>
+	<artifactId>hobbit-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>webflow-service</name>
+	<name>hobbit-service</name>
 	<description>Spring Boot Web Application</description>
 
 	<parent>
